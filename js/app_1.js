@@ -23,12 +23,71 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#80ff80",
-        "fillColor": "#80ff80",
-        "weight": .9,
-        "opacity": 0.65
+        "color": "#F22E2E",
+        "fillColor": "#F22E2E",
+        "weight": 5,
+        "opacity": 1
     });
     map.fitBounds(featureLayer.getBounds());
 });
 
 ///////////////////////////////////////////////////////////////////////////
+// Add some basic click handling
+
+// featureLayer.on('ready', function(){
+//   this.eachLayer(function(layer){
+//     layer.bindPopup('Hi, my ID value is ' + layer.feature.properties.id);
+//   });
+// });
+
+///////////////////////////////////////////////////////////////////////////
+// Lets add some more interesting click handling
+
+// Clear out the info panel when you click somewhere in the map
+map.on('click',function(e){
+	$('#info').fadeOut(200);
+    $('#info').empty();
+});
+
+// Use this function to handle the click event on the data
+var clickHandler = function(e){
+  $('#info').empty();
+
+  //e is the click event that is moving up in the browser, it's target is our element that was clicked
+  var feature = e.target.feature;
+
+  $('#info').fadeIn(400,function(){
+    var info = '';
+
+    info = '<div>Sweet restaurant named ' + feature.properties.name + '</div>';
+
+    $('#info').append(info);
+  });
+};
+
+// Register the click event on each of the features in the map
+featureLayer.on('ready', function(){
+  this.eachLayer(function(layer){
+    layer.on('click', clickHandler);
+  });
+});
+
+
+var myLocation = L.mapbox.featureLayer().addTo(map);
+map.locate();
+map.on('locationfound', function(e) {
+
+    myLocation.setGeoJSON({
+        type: 'Feature',
+        geometry: {
+            type: 'Point',
+            coordinates: [e.latlng.lng, e.latlng.lat]
+        },
+        properties: {
+            'title': 'Here I am!',
+            'marker-color': '#ff8888',
+            'marker-symbol': 'star'
+        }
+    });
+});
+map.locate();
