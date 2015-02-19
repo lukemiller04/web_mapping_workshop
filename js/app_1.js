@@ -23,9 +23,9 @@ var featureLayer = L.mapbox.featureLayer()
 
 featureLayer.on('ready', function() {
     this.setStyle({
-        "color": "#555555",
-        "fillColor": "#555555",
-        "weight": .5,
+        "color": "#80ff80",
+        "fillColor": "#80ff80",
+        "weight": .9,
         "opacity": 0.65
     });
     map.fitBounds(featureLayer.getBounds());
