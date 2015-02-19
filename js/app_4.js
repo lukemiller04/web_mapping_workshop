@@ -11,83 +11,56 @@ var map = L.mapbox.map('map', mapId);
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
 
-///////////////////////////////////////////////////////////////////////////
-// This is the area we're going to use to add data to our map
+//////////////////////Add Data
+var dataFileToAdd = 'data/KCEats.geojson';
 
-var dataFileToAdd = 'data/KCEats.geojson'; //<- Point this to the file that you want to include on the map
-var dataToAdd;
+var featureLayer = L.mapbox.featureLayer();
+    
+    featureLayer.loadURL(dataFileToAdd);
+    featureLayer.addTo(map);
 
-var featureLayer = L.mapbox.featureLayer()
-    .loadURL(dataFileToAdd)
-    .addTo(map);
-
-featureLayer.on('ready', function() {
-    this.setStyle({
-        "color": "#F22E2E",
-        "fillColor": "#F22E2E",
-        "weight": 5,
-        "opacity": 1
-    });
-    map.fitBounds(featureLayer.getBounds());
+featureLayer.on('ready', function(){
+  this.setStyle({
+    "marker-color": "#a90a0a",
+    "marker-size": "medium"
+  });
+  map.fitBounds(featureLayer.getBounds());
 });
 
-///////////////////////////////////////////////////////////////////////////
-// Add some basic click handling
+////////////////////////////////
+//Add popup
 
 // featureLayer.on('ready', function(){
-//   this.eachLayer(function(layer){
-//     layer.bindPopup('Hi, my ID value is ' + layer.feature.properties.id);
-//   });
+//     this.eachLayer(function(layer){
+//         layer.bindPopup('Restaurant Name: ' + layer.feature.properties.name);
+//     });
 // });
 
-///////////////////////////////////////////////////////////////////////////
-// Lets add some more interesting click handling
-
-// Clear out the info panel when you click somewhere in the map
-map.on('click',function(e){
-	$('#info').fadeOut(200);
-    $('#info').empty();
+//clear the panel 
+map.on('click', function(){
+   $('#info').fadeOut(200);
+   $('#info').empty();
 });
 
-// Use this function to handle the click event on the data
+//handle click on marker
 var clickHandler = function(e){
-  $('#info').empty();
+    $('#info').empty();
+    
+    var feature = e.target.feature;
+    
+    $('#info').fadeIn(400, function(){
+        var info = '';
+        info = '<div>Check out this restaurant called ' + feature.properties.name + '</div>';
+        $('#info').append(info);
+    });
+}
 
-  //e is the click event that is moving up in the browser, it's target is our element that was clicked
-  var feature = e.target.feature;
-
-  $('#info').fadeIn(400,function(){
-    var info = '';
-
-    info = '<div>Sweet restaurant named ' + feature.properties.name + '</div>';
-
-    $('#info').append(info);
-  });
-};
-
-// Register the click event on each of the features in the map
+//register the click handler
 featureLayer.on('ready', function(){
-  this.eachLayer(function(layer){
-    layer.on('click', clickHandler);
-  });
-});
-
-
-var myLocation = L.mapbox.featureLayer().addTo(map);
-map.locate();
-map.on('locationfound', function(e) {
-
-    myLocation.setGeoJSON({
-        type: 'Feature',
-        geometry: {
-            type: 'Point',
-            coordinates: [e.latlng.lng, e.latlng.lat]
-        },
-        properties: {
-            'title': 'Here I am!',
-            'marker-color': '#ff8888',
-            'marker-symbol': 'star'
-        }
+    this.eachLayer(function(layer){
+        layer.on('click', clickHandler);
     });
 });
-map.locate();
+
+
+
