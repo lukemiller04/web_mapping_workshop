@@ -23,5 +23,5 @@ featureLayer.on('ready' function(){
     "marker-color": "#555555",
     "marker-size": "medium"
   })
-  map.fitBounds(featureLayer.getBounds()):
-  }):
+  map.fitBounds(featureLayer.getBounds());
+  });
