@@ -10,6 +10,7 @@ var map = L.mapbox.map('map', mapId);
 
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
+
 //Add Data
 var dataFileToAdd = 'data/Bike.geojson';
 
@@ -22,6 +23,6 @@ featureLayer.on('ready' function(){
   this.setStyle({
     "marker-color": "#555555",
     "marker-size": "medium"
-  })
+  });
   map.fitBounds(featureLayer.getBounds());
   });
