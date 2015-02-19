@@ -14,7 +14,7 @@ map.setView([39, -96], 4);
 ///////////////////////////////////////////////////////////////////////////
 // This is the area we're going to use to add data to our map
 
-var dataFileToAdd = 'data/leveed_area.geojson'; //<- Point this to the file that you want to include on the map
+var dataFileToAdd = 'data/KCBike.geojson'; //<- Point this to the file that you want to include on the map
 var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
