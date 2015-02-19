@@ -36,6 +36,6 @@ featureLayer.on('ready', function() {
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('way: ' + layer.feature.properties.way);
+    layer.bindPopup('Relations: ' + layer.feature.properties.Relations);
   });
 });
