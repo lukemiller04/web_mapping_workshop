@@ -59,7 +59,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>Sweet bike route named ' + feature.properties.name + '</div>';
+    info = '<div>Sweet restaurant named ' + feature.properties.name + '</div>';
 
     $('#info').append(info);
   });
