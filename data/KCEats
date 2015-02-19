@@ -1,0 +1,730 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-02-19T22:00:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/1358364139",
+      "properties": {
+        "@id": "node/1358364139",
+        "addr:housenumber": "4376",
+        "addr:street": "S Noland Rd",
+        "amenity": "restaurant",
+        "contact:phone": "816-373-3171",
+        "cuisine": "chinese",
+        "description": "BTC payment via Menufy.",
+        "name": "King Wok",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://kingwokmo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4175927,
+          39.0408505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1361085152",
+      "properties": {
+        "@id": "node/1361085152",
+        "addr:housenumber": "4400",
+        "addr:street": "South Noland Road",
+        "amenity": "restaurant",
+        "contact:phone": "816-373-0666",
+        "cuisine": "chinese",
+        "description": "BTC payment via Menufy.",
+        "name": "Mama Garden",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://mamagardenmo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4160484,
+          39.0402008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1672966907",
+      "properties": {
+        "@id": "node/1672966907",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3751876,
+          39.1196926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1795169129",
+      "properties": {
+        "@id": "node/1795169129",
+        "addr:housenumber": "208",
+        "addr:postcode": "64050",
+        "addr:street": "West Maple Avenue",
+        "amenity": "restaurant",
+        "name": "Square Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4176733,
+          39.0929466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1868998119",
+      "properties": {
+        "@id": "node/1868998119",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "East Buffet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4396012,
+          39.0450121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1876941078",
+      "properties": {
+        "@id": "node/1876941078",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Honeybaked Ham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4159453,
+          39.0383562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887580137",
+      "properties": {
+        "@id": "node/1887580137",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "iHop",
+        "website": "http://www.ihop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3611318,
+          38.923013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643836",
+      "properties": {
+        "@id": "node/1887643836",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Fortuna Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3775886,
+          38.9359352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643838",
+      "properties": {
+        "@id": "node/1887643838",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Culvers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3775349,
+          38.9422441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643840",
+      "properties": {
+        "@id": "node/1887643840",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Panera Bread"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3776958,
+          38.9354512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643841",
+      "properties": {
+        "@id": "node/1887643841",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Chipolte",
+        "website": "http://www.chipotle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3597143,
+          38.9212875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643842",
+      "properties": {
+        "@id": "node/1887643842",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Monettis Taste of Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3776958,
+          38.9356348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643848",
+      "properties": {
+        "@id": "node/1887643848",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "New China Buffet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.362257,
+          38.9053009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643857",
+      "properties": {
+        "@id": "node/1887643857",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Waffle House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3778568,
+          38.9414513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643860",
+      "properties": {
+        "@id": "node/1887643860",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Outback Steakhouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3773632,
+          38.9428783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643861",
+      "properties": {
+        "@id": "node/1887643861",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Waldo's Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3764835,
+          38.9398575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643862",
+      "properties": {
+        "@id": "node/1887643862",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Jose Peppers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3767839,
+          38.9415515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887643865",
+      "properties": {
+        "@id": "node/1887643865",
+        "amenity": "restaurant",
+        "name": "Applebees"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3779104,
+          38.9395153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887646182",
+      "properties": {
+        "@id": "node/1887646182",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "La Fuente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.377846,
+          38.9349672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887658463",
+      "properties": {
+        "@id": "node/1887658463",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Panera Bread"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4065028,
+          38.9266462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887658464",
+      "properties": {
+        "@id": "node/1887658464",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Steak n Shake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3630724,
+          38.9136578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887658465",
+      "properties": {
+        "@id": "node/1887658465",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Chili's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4070285,
+          38.9266712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887658467",
+      "properties": {
+        "@id": "node/1887658467",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Custards Last Stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.363051,
+          38.9131569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887666787",
+      "properties": {
+        "@id": "node/1887666787",
+        "amenity": "restaurant",
+        "cuisine": "sandwich",
+        "name": "Subway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.410966,
+          38.926738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887666788",
+      "properties": {
+        "@id": "node/1887666788",
+        "amenity": "restaurant",
+        "name": "Olive Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.401597,
+          38.9265231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887666789",
+      "properties": {
+        "@id": "node/1887666789",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Chipotle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.409024,
+          38.9285909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887666791",
+      "properties": {
+        "@id": "node/1887666791",
+        "amenity": "restaurant",
+        "name": "Red Lobster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4021683,
+          38.9265439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2153747468",
+      "properties": {
+        "@id": "node/2153747468",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4145737,
+          39.0771317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2162632413",
+      "properties": {
+        "@id": "node/2162632413",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Fazzolis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3557685,
+          39.0483425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2757745830",
+      "properties": {
+        "@id": "node/2757745830",
+        "addr:housenumber": "11203",
+        "addr:street": "E US 24 Highway",
+        "amenity": "restaurant",
+        "contact:phone": "816-836-4949",
+        "cuisine": "pizza",
+        "description": "BTC payment via Menufy.",
+        "name": "Little Caesars",
+        "payment:bitcoin": "yes",
+        "source": "http://www.coindesk.com/menufy-now-supports-bitcoin-payments-400-us-restaurants/",
+        "website": "http://littlecaesarsindependence.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4445437,
+          39.1019267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2760172121",
+      "properties": {
+        "@id": "node/2760172121",
+        "addr:housenumber": "303",
+        "addr:street": "Northeast Todd George Road",
+        "amenity": "restaurant",
+        "contact:phone": "816-246-6500",
+        "cuisine": "pizza",
+        "description": "BTC payment via Menufy.",
+        "name": "Little Caesars",
+        "payment:bitcoin": "yes",
+        "source": "http://littlecaesarsleessummit.com/",
+        "website": "http://littlecaesarsleessummit.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3382107,
+          38.917869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2791699827",
+      "properties": {
+        "@id": "node/2791699827",
+        "addr:housenumber": "4660",
+        "addr:postcode": "64055",
+        "addr:street": "South Bass Pro Drive",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3650567,
+          39.0350501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3051854973",
+      "properties": {
+        "@id": "node/3051854973",
+        "amenity": "restaurant",
+        "name": "Waffle House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3047437,
+          39.0321465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232522542",
+      "properties": {
+        "@id": "node/3232522542",
+        "amenity": "restaurant",
+        "cuisine": "BBQ",
+        "name": "Plow Boys BBQ",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2740636,
+          38.9885815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232544765",
+      "properties": {
+        "@id": "node/3232544765",
+        "amenity": "restaurant",
+        "name": "Olive Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2519167,
+          39.0267542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232544768",
+      "properties": {
+        "@id": "node/3232544768",
+        "amenity": "restaurant",
+        "name": "Texas Roadhouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2570592,
+          39.0277138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232544772",
+      "properties": {
+        "@id": "node/3232544772",
+        "amenity": "restaurant",
+        "name": "Big Biscuit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2714876,
+          39.0230792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232564744",
+      "properties": {
+        "@id": "node/3232564744",
+        "amenity": "restaurant",
+        "name": "Buffalo Wild Wings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3438952,
+          39.0417633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232564745",
+      "properties": {
+        "@id": "node/3232564745",
+        "amenity": "restaurant",
+        "name": "Cold Stone Creamery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.343242,
+          39.0427732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232589963",
+      "properties": {
+        "@id": "node/3232589963",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2725613,
+          38.9944907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3232589964",
+      "properties": {
+        "@id": "node/3232589964",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "5 Guys Burgers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2466052,
+          39.0254029
+        ]
+      }
+    }
+  ]
+}
