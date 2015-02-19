@@ -16,7 +16,7 @@ var dataFileToAdd = 'data/Bike.geojson';
 var featureLayer = L.mapbox.featureLayer()
   
   featureLayer.loadurl(dataFileToAdd)
-  featureLayer.addTo(map)
+  featureLayer.addTo(map);
   
 featureLayer.on('ready' function(){
   this.setStyle({
