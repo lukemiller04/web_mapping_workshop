@@ -11,18 +11,24 @@ var map = L.mapbox.map('map', mapId);
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
 
-//Add Data
-var dataFileToAdd = 'data/Bike.geojson';
+///////////////////////////////////////////////////////////////////////////
+// This is the area we're going to use to add data to our map
+
+var dataFileToAdd = 'data/leveed_area.geojson'; //<- Point this to the file that you want to include on the map
+var dataToAdd;
 
 var featureLayer = L.mapbox.featureLayer()
-  
-  featureLayer.loadurl(dataFileToAdd)
-  featureLayer.addTo(map);
-  
-featureLayer.on('ready' function(){
-  this.setStyle({
-    "marker-color": "#555555",
-    "marker-size": "medium"
-  });
-  map.fitBounds(featureLayer.getBounds());
-  });
+    .loadURL(dataFileToAdd)
+    .addTo(map);
+
+featureLayer.on('ready', function() {
+    this.setStyle({
+        "color": "#6583BF",
+        "fillColor": "#6583BF",
+        "weight": .5,
+        "opacity": 0.65
+    });
+    map.fitBounds(featureLayer.getBounds());
+});
+
+///////////////////////////////////////////////////////////////////////////
